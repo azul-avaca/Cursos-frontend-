@@ -1,0 +1,22 @@
+.flexContainer {
+    display: flex;
+}
+.flexItem {
+    width: 200px;
+}
+div {
+    width: 200px;
+    height: 100px;
+}
+.primero {
+    background: aqua;
+}
+.segundo {
+    background: burlywood;
+}
+.tercero {
+    background: blue;
+}
+.cuarto {
+    background: crimson;
+}
