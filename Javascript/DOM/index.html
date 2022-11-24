@@ -31,6 +31,7 @@
               autocomplete="off"
               data-f-input
             />
+            <input type="datetime-local" data-f-date placeholder="YYYY/MM/DD"/>
             <button type="submit" class="btnCreate" data-f-btn>
               Agregar <i class="fas fa-plus-circle"></i>
             </button>
@@ -40,6 +41,8 @@
         </ul>
       </div>
     </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script> <!-- importación de  libreria moment para cambiar el formato de las fechas-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.2.0/uuid.min.js"></script>
     <script type="module" src="script.js"></script>
   </body>
 </html>
